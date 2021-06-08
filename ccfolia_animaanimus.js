@@ -112,7 +112,7 @@ void((function(undefined) {
         for(let i = 0; i < anotherName.length; i++){
             chatPalette += ('\n' + anotherName[i] + '/' + anotherTiming[i] + '/' + anotherTarget[i] + '/' + anotherCost[i] + '/' + anotherEffect[i]);
         }
-        chatPalette += '\n:耐久力-\n:魂-\n{気概}AN<={格闘} 格闘\n{気概}AN<={運動} 運動\n{気概}AN<={追跡/逃走} 追跡/逃走\n{気概}AN<={威圧} 威圧\n{気概}AN<={操縦} 操縦\n{理知}AN<={コンピュータ} コンピュータ\n{理知}AN<={医学} 医学\n{理知}AN<={隠密} 隠密\n{理知}AN<={知覚} 知覚\n{理知}AN<={教養} 教養\n{欲望}AN<={交渉} 交渉\n{欲望}AN<={調達} 調達\n{欲望}AN<={犯罪} 犯罪\n{欲望}AN<={自我} 自我\n{欲望}AN<={芸術} 芸術';
+        chatPalette += '\n:耐久力-\n:魂-\n({武器}+{ダイス増加})AN<=7 武器\n{気概}AN<={格闘} 格闘\n{気概}AN<={運動} 運動\n{気概}AN<={追跡/逃走} 追跡/逃走\n{気概}AN<={威圧} 威圧\n{気概}AN<={操縦} 操縦\n{理知}AN<={コンピュータ} コンピュータ\n{理知}AN<={医学} 医学\n{理知}AN<={隠密} 隠密\n{理知}AN<={知覚} 知覚\n{理知}AN<={教養} 教養\n{欲望}AN<={交渉} 交渉\n{欲望}AN<={調達} 調達\n{欲望}AN<={犯罪} 犯罪\n{欲望}AN<={自我} 自我\n{欲望}AN<={芸術} 芸術';
 
         // オブジェクトの構築
         obj.data.name = characterName;
