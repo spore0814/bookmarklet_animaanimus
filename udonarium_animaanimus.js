@@ -1,6 +1,6 @@
 void((function(undefined) {
     try{
-        if(location.hostname !== 'character-sheets.appspot.com'){
+        if(location.hostname !== 'character-sheets.appspot.com' || location.hostname !== 'www.character-sheets.appspot.com'){
             window.alert('このサイトでは使用できません');
             return;
         }
